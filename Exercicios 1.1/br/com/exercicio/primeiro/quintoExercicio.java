@@ -1,3 +1,4 @@
+package br.com.exercicio.primeiro;
 class quintoTeste{
     static int i = 3;
     public static void main (String[] a){
