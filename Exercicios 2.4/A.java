@@ -3,9 +3,7 @@ class B{
 }
 class A{
 	public static void main (String[] args) {
-		B b = new B();
-		for (int i = 0; i < 10; i++)
-			b = new B();
+		B [] bs = new B[100];
 		System.out.println("end!");
 	}
 }
