@@ -5,7 +5,7 @@ class A{
 			age = Integer.parseInt(args[0]);
 		}else{
 			System.err.println("???");
-			
+			return;
 		}
 		System.out.println(age);
 	}
