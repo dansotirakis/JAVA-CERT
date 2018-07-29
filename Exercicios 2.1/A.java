@@ -1,6 +1,10 @@
 class A{
 	public static void main (String[] args){
-		boolean[] array = new boolean[300];
-		System.out.println(array[3]);
+		boolean argis;
+		if(args.length > 0)
+			argis = 1;
+		else
+			argis = 0;
+		System.out.println(argis);
 	}
 }
