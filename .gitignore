@@ -27,3 +27,5 @@ hs_err_pid*
 JAVA-CERT\.iml
 
 CasaDoCódigo/CasaDoCódigo\.iml
+.project
+.classpath
